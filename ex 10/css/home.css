@@ -1,0 +1,229 @@
+/* all */
+h1, h2, h3
+{
+    font-family: 'Candal', sans-serif;
+}
+
+
+body
+{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sizing
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.content h2
+{
+    font-size: 1.8em
+}
+
+.content h3
+{
+    font-size: 1.2em
+}
+
+/* header */
+
+header h1
+{
+    font-size: 3em;
+}
+header p
+{
+    font-size: 2em
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Candal', sans-serif;
+    padding: 50px;
+    
+}
+
+.fas, .far
+{
+    display: block;
+    text-align: center;
+    color: #FF8B99;
+}
+
+nav a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #152F39;
+}
+nav img
+{
+    vertical-align: middle;
+}
+
+/* bandeau */
+
+.bandeau
+{
+    background-image: url(../img/background.jpg);
+    padding: 220px 0;
+    margin: 0;
+}
+
+.bandeau h1,
+.bandeau h2
+{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin: 0;
+}
+
+/* Input search */
+
+.input-search
+{
+    background-color: #FF8B99;
+}
+
+.input-search input
+{
+    padding: 20px;
+    background-color: #FF8B99;
+    width: 100%;
+    border: transparent;
+    font-size: 2em;
+    color: #FDBDBD;
+}
+
+input::placeholder
+{
+    color: white;
+}
+
+/* sections */
+
+.sect-1,
+.sect-2
+{
+    color: #FF8B99;
+    padding: 50px;
+}
+
+.sect-1 h2,
+.sect-2 h2
+{
+    color: #152F39;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px grey dashed;
+    border-left: 1px grey dashed;
+    border-right: 1px grey dashed;
+}
+
+.sect-1 h3,
+.sect-2 h3
+{
+    text-align: center;
+}
+
+.sect-1 p,
+.sect-2 p
+{
+    color: grey;
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.bloc-section
+{
+    padding: 40px 0;
+}
+
+.bloc-section .fas,
+.bloc-section .far
+{
+    font-size: 50px;
+}
+
+/* footer */
+
+footer nav a
+{
+    color: white;
+    
+}
+
+footer
+{
+    background-color: #152F39;
+    color: white;
+}
+
+.droit
+{
+    font-size: 0.8em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.droit img
+{
+    margin: 20px 0px 10px 0px;
+    width: 60px;
+}
+
+.red-text
+{
+    color: slateblue;
+    text-decoration-line: none;
+}
+
+
+@media screen and (min-width: 480px)
+
+{
+
+    /* header */
+
+    nav
+    {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav a
+    {
+        padding: 10px;
+    }
+
+    /* bandeau */
+
+    .bandeau
+    {
+        padding: 150px;
+    }
+
+    /* sections */
+
+    .flex
+    {
+        flex-direction: column;
+    }
+
+    .bloc-section p
+    {
+        text-align: center;
+    }
+
+}

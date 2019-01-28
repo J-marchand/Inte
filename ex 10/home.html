@@ -1,0 +1,219 @@
+<!--
+    
+    # INSTRUCTIONS
+Découverte du flexbox
+
+## CSS
+- Utilisation du flexbox
+- Largeur limité à 80% maximum
+- Taille de la police :
+    - header h1 : 3em
+    - header p : 2em
+    - main h2 : 1.8em
+    - main h3 : 1.2em
+- Police utilisés :
+    - Titre : "Candal"
+    - Texte : "Open Sans"
+
+## BONUS
+- Réalisation de la version responsive
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Candal|Open+Sans" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="css/home.css">
+    <title>Mindgeek</title>
+</head>
+
+<body>
+
+    <div class="centent">
+
+        <header>
+
+            <div class="sizing">
+
+                <nav>
+
+                    <a href="#"><img src="img/logo.png" alt="logo"></a>
+                    <a href="#"><i class="fas fa-users"></i>Serveur Mutualisé</a>
+                    <a href="#"><i class="fas fa-user"></i>Serveur Dédié</a>
+                    <a href="#"><i class="fas fa-cloud"></i>Solution "Cloud"</a>
+                    <a href="#"><i class="fas fa-envelope"></i>Contact</a>
+
+                </nav>
+
+            </div>
+
+        </header>
+
+        <div class="bandeau">
+
+            <div class="sizing">
+
+                <h1>L'hébergement à prix libre</h1>
+
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et earum nulla, fuga vero culpa quae
+                    similique ullam ducimus</h2>
+
+            </div>
+
+        </div>
+
+        <div class="input-search">
+
+            <div class="sizing">
+
+                <form action="search" id="recherche" method="get">
+                    <input id="search" name="recherche" type="text" placeholder="Que recherchez-vous ?" />
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="sizing">
+
+            <section class="sect-1">
+
+                <h2>Notre solution en 3 points</h2>
+
+                <div class="flex">
+
+                    <div class="bloc-section">
+
+                        <!--icone-->
+                        <i class="fas fa-cogs"></i>
+                        <h3>Configuaration</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsum porro perspiciatis
+                            laudantium
+                            fuga consequatur!</p>
+
+                    </div>
+
+                    <div class="bloc-section">
+
+                        <!--icone-->
+                        <i class="far fa-image"></i>
+                        <h3>Monitoring</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsum porro perspiciatis
+                            laudantium
+                            fuga consequatur!</p>
+
+                    </div>
+
+                    <div class="bloc-section">
+
+                        <!--icone-->
+                        <i class="fas fa-database"></i>
+                        <h3>Sauvegarde</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsum porro perspiciatis
+                            laudantium
+                            fuga consequatur!</p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+        <div class="sizing">
+
+            <section class="sect-2">
+
+                <h2>Notre solution en 3 points</h2>
+
+                <div class="flex">
+
+                    <div class="bloc-section">
+
+                        <!--icone-->
+                        <i class="fas fa-users"></i>
+                        <h3>Serveur Mutualisé</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsum porro perspiciatis
+                            laudantium
+                            fuga consequatur!</p>
+
+                    </div>
+
+                    <div class="bloc-section">
+
+                        <!--icone-->
+                        <i class="fas fa-user"></i>
+                        <h3>Serveur Dédié</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsum porro perspiciatis
+                            laudantium
+                            fuga consequatur!</p>
+
+                    </div>
+
+                    <div class="bloc-section">
+
+                        <!--icone-->
+                        <i class="fas fa-cloud"></i>
+                        <h3>Service Cloud</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsum porro perspiciatis
+                            laudantium
+                            fuga consequatur!</p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+        <footer>
+
+            <div class="sizing">
+
+                <nav>
+
+                    <a href="#">Serveur Mutualisé</a>
+                    <a href="#">Serveur Dédié</a>
+                    <a href="#">Solution "Cloud"</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Se Connecter</a>
+
+                </nav>
+
+                <div class="droit">
+
+                    <a href="#"><img src="img/big.png"></a>
+
+                    <p>Cet exercice de <span class="red-text"> 3W Academy</span> est mis à disposition <span class="red-text">pour
+                            l'usage personnel des étudiants, Pas de Rediffusion - Attribution - Pas d'Utilisation
+                            Commerciale - Pas de Modification - International.</span>
+                        Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a href="mailto:contact@3wa.fr"><span
+                                class="red-text">contact@3wa.fr</span></a>. Les maquettes ont été réalisées par <span class="red-text">Justine
+                            Muller</span>.</p>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

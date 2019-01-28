@@ -1,0 +1,17 @@
+pre
+{
+	color: red;
+	font-size: 1.5em;
+}
+
+.bloc_class
+{
+	text-align: center;
+	border: double red;
+}
+
+li
+{
+	list-style: none;
+	background-color: red;
+}

@@ -1,0 +1,67 @@
+body
+{
+    background-image: url(img/fond.png);
+    font-size: 1em;
+    color: #484E57;
+}
+header
+{
+    text-align: center; 
+    background-color: #25B3B4; 
+    border: 3px solid #1C989E;
+}
+
+nav
+{
+    padding: 0px 0px 10px 0px;
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;  
+    margin: 20px;
+}
+
+main
+{
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+
+h1, h2, nav
+{
+    font-family: 'Slabo 27px', serif;
+}
+
+p
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+footer
+{
+    float: normal;
+}
+
+.droit
+{
+    font-size: 0.8em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.droit img
+{
+    margin: 20px 0px 10px 0px;
+    width: 60px;
+}
+
+.red-text
+{
+    color: slateblue;
+    text-decoration-line: none;
+}

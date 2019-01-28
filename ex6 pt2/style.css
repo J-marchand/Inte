@@ -1,0 +1,56 @@
+.bloc-article section
+{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.article-1, .article-2
+{
+    margin: 20px;
+    display: inline-block;
+}
+
+.article-1 img
+{
+    float: left;
+    margin: 0 20px 20px 0;
+    
+}
+
+.article-2 img
+{
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.article-1 h1, .article-2 h1
+{
+    text-align: center;
+}
+
+.bloc-service section
+{
+    background-image: url(img/background_section.jpg);
+    background-size: 100%;
+    background-position: bottom;
+ 
+}
+
+.bloc-service section article
+{
+    display: inline-block;
+    width: 33%;
+    margin: 0px auto;
+}
+
+.bloc-service article
+{
+    text-align: center;
+    padding: 20px;
+}
+
+.bloc-service img
+{
+    max-width: 50%;
+}
+

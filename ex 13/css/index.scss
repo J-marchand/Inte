@@ -1,0 +1,350 @@
+@keyframes bob
+{
+    
+    0%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+
+}
+
+/* ALL */
+
+*
+{
+    box-sizing: border-box;
+}
+
+.sizing
+{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+body
+{
+    background-image: url(../img/fond.png);
+    background-color: #F9FAFC;
+}
+/* HEADER */
+
+header
+{
+    color: #929294;
+    position: fixed;
+    background-color: #F9FAFC;
+    width: 100%;
+    border-bottom: 2px solid #929294;
+}
+
+.flex-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #929294;
+}
+
+.logo a h1
+{
+    transition: all 1s;
+}
+
+.logo a:hover h1
+{
+    transform : translateX(20px);
+}
+.logo a img
+{
+    width: 40px;
+    padding: 5px;
+    transition: all 1s;
+}
+
+.logo a:hover img
+{
+    transform: scale(2);
+}
+
+nav a
+{
+    text-decoration: none;
+    color: #929294;
+}
+
+
+nav ul
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+nav ul li
+{
+    width: 200px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius : 10px;
+    list-style: none;
+    transition: all 1s;
+    text-align: center;
+
+}
+
+nav li:hover
+{
+    transform : translateY(10px);
+    background-color: #F8325B;
+    color: #F9FAFC;
+}
+
+nav ul li .fas,
+nav ul li .far
+{
+    display: block;
+    text-align: center;
+}
+
+
+
+
+/* WELCOME */
+
+.welcome
+{
+    background-image: url(../img/bg_header.png);
+    background-position: center;
+    background-position: top;
+    background-position-x: -33px;
+    color: white;
+    line-height: 40px;
+}
+
+.welcome article
+{
+    padding: 150px 0;
+    text-align: center;    
+}
+
+.welcome p
+{
+    padding-bottom: 100px;
+}
+
+.welcome a
+{
+    background-color: #F8325B;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 10px; 
+    color: white;
+    text-decoration: none;   
+}
+
+/* SECTION 1 */
+
+.section-1 h1
+{
+    text-align: center;
+    border-bottom: 2px solid rgba(146, 146, 148, 0.5);
+    padding: 20px;
+}
+
+.flex-grad
+{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #929294;
+}
+
+.flex-grad div
+{
+    width: 30%;
+}
+/* SECTION 2 */
+
+.section-2 i:hover
+{
+    animation: bob 1s infinite alternate;
+}
+
+.section-2 h1
+{
+    text-align: center;
+    border-bottom: 2px solid rgba(146, 146, 148, 0.5);
+    padding: 20px;
+}
+
+.flex-card
+{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #929294;
+}
+
+
+.flex-card i
+{
+    border: 2px solid #929294;
+    border-radius: 100%;
+    padding: 23px;
+    width: 90px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(146, 146, 148, 0.5);
+    line-height: 40px;
+    text-decoration: none;
+    color: #929294;
+}
+
+.flex-card p
+{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 40px
+}
+
+.flex-card h3
+{
+    color: #F8325B;
+}
+
+
+/* SECTION 3 */
+
+.section-3
+{
+    line-height: 30px;
+}
+.section-3 h1
+{
+    color: #F8325B;
+    text-align: center;
+    border-bottom: 2px solid rgba(146, 146, 148, 0.5);
+    padding: 20px;
+}
+
+.section-3 h2
+{
+    color: #F8325B;
+}
+
+.section-3 img
+{
+    width: 40%;
+}
+
+.article-1 img,
+.article-3 img
+{
+    float: right;
+    display: block;
+    padding-bottom: 20px;
+    padding-left: 20px; 
+}
+
+.article-2 img,
+.article-4 img
+{
+    float: left;
+    display: block;
+    padding-bottom: 20px;
+    padding-right: 20px; 
+}
+
+.section-3 a 
+{
+    text-decoration: none;
+    color: #F8325B;
+}
+
+.section-3 i
+{
+    padding-left: 5px;
+}
+
+form
+{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+    margin-top: 50px;   
+
+}
+
+form input
+{
+    border-radius: 30px;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.haut
+{
+    width: 45%; 
+}
+
+.haut input
+{
+    width: 100%;
+}
+
+input::placeholder
+{
+    padding-left: 50px 
+}
+.bas
+{
+    width: 100%;
+}
+
+.bas input
+{
+    width: 100%;
+}
+
+.first input
+{
+    background-image: url(../img/bg_form_name.svg);
+    background-repeat: no-repeat;
+}
+
+.second input
+{
+    background-image: url(../img/bg_form_mail.svg);
+    background-repeat: no-repeat;
+}
+
+.third input
+{
+    background-image: url(../img/bg_form_message.svg);
+    background-repeat: no-repeat;
+}
+/* FOOTER */
+
+footer
+{
+    text-align: center;
+    font-size: 12px
+}
+
+footer img
+{
+    width: 100px;
+    padding: 20px;
+}

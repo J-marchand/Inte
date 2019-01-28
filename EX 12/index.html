@@ -1,0 +1,173 @@
+<!--# INSTRUCTIONS
+Construire un site avec du jQuery et de la vidéo
+
+## HTML
+- Utilisation du reset.css ou du normalize.css
+- Utilisation du plugin jQuery [Flexslider](https://www.woothemes.com/flexslider/) :
+    - cliquer sur ce lien
+    - télécharger le plugin
+    - suivre les instructions (Step 1 à 3)
+    - Attention à l'étape 3, si utilisation de jQuery > 1.8 utiliser .on('load') et non l'alias .load()
+
+## CSS
+- Largeur limité à 1500px maximum pour certains éléments
+- Taille de la police :
+    - nav : 2.5rem
+    - h1 : 4rem
+    - h2 : 3rem
+    - titres vignette : 2.5rem
+- Police utilisé : "Bodega Sans"
+- Réussir à créer les espaces entre chaque vignette "Moto" de manière la plus simple possible (utilisation des pseudo classe)
+
+# BONUS
+Trouver le moyen de désactiver les fleches directionnelles dans le FlexSlider en passant par le JS (Step 4)-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>JQuery</title>
+
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <div class="sizing">
+                <div class="background">
+
+                    <img src="img/logo.svg" alt="logo">
+
+                    <nav>
+                        <a href="#">Nos Prduits</a>
+                        <a href="#">Nos Tarifs</a>
+                        <a href="#">Contactez-Nous</a>
+                    </nav>
+
+                </div>
+            </div>
+        </header>
+
+        <section class="sect-1">
+            <div class="sizing">
+                <h1>devenez mozart de la moto avec wolf'<span class="yellowWord">gang</span>!</h1>
+
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <img src="img/slider/1.jpg" />
+                        </li>
+                        <li>
+                            <img src="img/slider/2.jpg" />
+                        </li>
+                        <li>
+                            <img src="img/slider/3.jpg" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="sizing">
+            <section class="sect-2">
+                <h2>découvrez <span class="yellowWord">nos motos</span></h2>
+
+                <div class="flex-product">
+                    <article>
+                        <img src="img/team/1.jpg" alt="moto 1">
+                        <h3>moto #1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, dolores.Lorem ipsum dolor
+                            sit amet, consectetur adipisicing elit. Sint, dolores.</p>
+                        <button>En savoir plus</button>
+                    </article>
+
+                    <article>
+                        <img src="img/team/2.jpg" alt="moto 1">
+                        <h3>moto #2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, dolores.Lorem ipsum dolor
+                            sit amet, consectetur adipisicing elit. Sint, dolores.</p>
+                        <button>En savoir plus</button>
+                    </article>
+
+                    <article>
+                        <img src="img/team/3.jpg" alt="moto 1">
+                        <h3>moto #3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, dolores.Lorem ipsum dolor
+                            sit amet, consectetur adipisicing elit. Sint, dolores.</p>
+                        <button>En savoir plus</button>
+                    </article>
+
+                    <article>
+                        <img src="img/team/4.jpg" alt="moto 1">
+                        <h3>moto #4</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, dolores.Lorem ipsum dolor
+                            sit amet, consectetur adipisicing elit. Sint, dolores.</p>
+                        <button>En savoir plus</button>
+                    </article>
+                </div>
+            </section>
+        </div>
+
+        <article class="about">
+            <div class="sizing">
+                <h2>pour nous connaitre <span class="yellowWord">plus en detail</span></h2>
+
+                <div class="flex-about">
+
+                    <div class="para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ex fuga dolorum sint
+                            porro
+                            dolore, similique eligendi inventore iure neque recusandae sed, vel blanditiis quas? <span>
+                                <!--Icone network--></span></p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ex fuga dolorum sint
+                            porro
+                            dolore, similique eligendi inventore iure neque recusandae sed, vel blanditiis quas? <span>
+                                <!--Icone network--></span></p>
+                    </div>
+
+                    <video width="50%" controls src="video/video.webm"></video>
+
+                </div>
+            </div>
+        </article>
+
+        <footer>
+            <h4>lorem ipsum</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officiis unde beatae pariatur, fugiat
+                minus nemo iusto dicta soluta? Tempora.</p>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Client</a>
+                <a href="#">Contact-us</a>
+            </nav>
+
+            <div class="sizing">
+                <img src="img/big.png" alt="Logo 3WA">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quo quaerat illo numquam! Soluta
+                    rem iure tempore architecto, explicabo quos suscipit ipsa officiis natus? Aspernatur at nam
+                    dignissimos vitae error.</p>
+            </div>
+        </footer>
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function () {
+            $('.flexslider').flexslider();
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+body
+{
+    max-width: 750px;
+    margin: auto;
+    background-image: url(img/fond.png);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+    color: grey;
+}
+
+header nav
+{
+    background-color: rgb(183, 203, 33);
+}
+
+nav a, nav img
+{
+    vertical-align: middle;
+    
+}
+nav img
+{
+    margin-right: 30%;
+    
+}
+nav a
+{
+    
+    margin-right: 36px;
+}
+
+section
+{
+    height: 110%;
+    max-width: 750px;
+}
+
+.bloc-section
+{
+    background-color: white;
+    width: 100%;
+}
+
+article
+{
+    padding: 25px;
+}
+
+article img
+{
+    width: 26%;
+    float: left;
+    margin-right: 10px;
+
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+
+.bloc-title h1
+{
+    text-transform: uppercase;
+    font-weight: normal;
+    color: rgb(183, 203, 33);
+}
+
+
+.button
+{
+    text-align: right;
+}
+
+.button a
+{
+    display: inline-block;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border: 1px solid rgb(183, 203, 33);
+    background-color: rgb(183, 203, 33);
+}
+
+footer
+{
+    
+    text-align: center;
+}
+
+footer img
+{
+    width: 7%;
+    margin-top: 30px;
+}
+
+.droit
+{
+    font-size: 0.5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.red-text
+{
+    color: slateblue;
+    text-decoration-line: none;
+}
+
+.text-po-up
+{
+    position: relative;
+}
+
+.pop-up
+{
+    background-color: black;
+    position: absolute;
+    display: none;
+    width: 100px;
+    height: 100px;
+    top: 1em;
+}
+
+.text-pop-up a:hover .pop-up
+{
+    display: block;
+}
+

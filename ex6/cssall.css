@@ -1,0 +1,92 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+}
+
+header
+{
+    background-image: url(img/fond.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+header a 
+{
+    margin: 3% 20px 3% 20px;
+    color: white;
+}
+
+header h1
+{
+    margin-top: 100px;
+    padding: 5em;
+}
+
+a:link
+{
+    text-decoration: none;
+    color: white;
+}
+
+nav
+{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+nav a
+{
+    display: inline-block;
+    font-size: 1.1em;
+    width: 15%;
+}
+
+.header nav i
+{
+    display: block;
+}
+
+.bandeau
+{
+    width: 100%;
+    background-color: rgb( 255, 255, 255, 0.08)
+    
+}
+
+.bgcolor
+{
+    background-color: rgb( 255, 255, 255, 0.2)
+}
+
+.bandeau p
+{
+    padding:15px;
+    margin: 0
+}
+
+.droit
+{
+    font-size: 0.8em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.droit img
+{
+    margin: 20px 0px 10px 0px;
+    width: 60px;
+}
+
+.red-text
+{
+    color: slateblue;
+    text-decoration-line: none;

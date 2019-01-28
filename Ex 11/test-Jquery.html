@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>JQuery</title>
+</head>
+<body>
+    <a href="#" class="button">OK</a>   
+    
+    <div class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ea impedit pariatur natus praesentium quod error provident animi repudiandae possimus?</div>
+    <script src="jquery-3.3.1.min.js"> </script>
+    
+    <script>
+    $(function(){
+        $(".content").css("background-color","green");
+    }); 
+    
+    $(".button").click(function(){
+        $(".content").css({
+            "background-color":"red",
+            "color":"blue",
+        })
+        $(".content").html("Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ea impedit pariatur natus praesentium quod error provident animi repudiandae possimus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ea impedit pariatur natus praesentium quod error provident animi repudiandae possimus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ea impedit pariatur natus praesentium quod error provident animi repudiandae possimus?");
+        $(".content").toggle(000);
+
+    })
+    </script>
+</body>
+</html>

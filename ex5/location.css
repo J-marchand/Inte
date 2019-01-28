@@ -1,0 +1,138 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(img/fond.png);
+    font-size: 1em;
+    color: #484E57;
+}
+header
+{
+    text-align: center; 
+    background-color: #25B3B4; 
+    border: 3px solid #1C989E;
+}
+
+nav
+{
+    padding: 0px 0px 10px 0px;
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;  
+    margin: 20px;
+}
+
+aside
+{
+    width: 70%;
+    margin: 20px auto 20px auto;
+    border: 2px solid #1C989E;
+    padding: 10px;
+    background-color: #B2DDDB; 
+}
+
+main
+{
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+
+.recipe-1
+{
+    float: left;
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    background-color: #00B1B2;
+}
+
+
+.recipe-2
+{
+    float: left;
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.recipe-1, .recipe-2
+{
+    padding: 0px 20px 0px 20px;
+}
+
+.recipe-1 h1, .recipe-2 h1
+{
+    color: #4C5159;
+    font-size: 1.5em;
+}
+
+.recipe-1 p, .recipe-2 p
+{
+    background-color: #80C8C5;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.recipe-1 img, .recipe-2 img
+{
+    width: 50px;
+    vertical-align: middle;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1, h2, nav
+{
+    font-family: 'Slabo 27px', serif;
+}
+
+p
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+footer
+{
+    float: normal;
+}
+
+.droit
+{
+    font-size: 0.8em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.droit img
+{
+    margin: 20px 0px 10px 0px;
+    width: 60px;
+}
+
+.red-text
+{
+    color: slateblue;
+    text-decoration-line: none;
+}

@@ -1,0 +1,46 @@
+/***** MAIN *****/
+main .container {
+  background-color: white;
+}
+
+/***** SECTION 1 *****/
+.section-1 h1 {
+  padding: 30px 0 10px 20px;
+}
+
+.section-1 h2 {
+  padding: 20px 0;
+}
+
+.section-1_article-1 img {
+  float: left;
+}
+
+.section-1_article-2 img {
+  float: right;
+}
+
+/***** SECTION 2 *****/
+.section-2 h1 {
+  padding: 20px 0;
+}
+
+.section-2_flex-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(148, 175, 48, 0.3);
+}
+
+.section-2_article-flex {
+  width: 30%;
+}
+
+.section-2_article-flex img {
+  width: 150px;
+  padding: 20px;
+}
+/*# sourceMappingURL=about.css.map */

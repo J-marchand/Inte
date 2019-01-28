@@ -1,0 +1,168 @@
+
+
+main
+{
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+
+.welcome
+{
+    max-width: 60%;
+    margin: 40px auto 40px auto;
+    text-align: center;
+}
+
+a[data-tooltip]
+{
+    position: relative;
+}
+
+a[data-tooltip]::before
+{
+    content: attr(data-tooltip);
+    position: absolute;
+    display: none;
+    bottom: 2em;
+    left: 50%;
+    width: 100px;
+    margin-left: -50px;
+    background-color: #B2DDDB;
+    padding: 5px;
+    color: black;
+}
+
+a[data-tooltip]:hover::before
+{
+    display: block;
+}
+
+a[data-tooltip]:hover::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: black;
+}
+
+
+.color-icon
+{
+    color: #B2DDDB;
+}
+
+article p a
+{
+    background-color: #1C989E;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+.recipe
+{
+    width: 53%;
+    float: left;
+    margin: 0% 2% 0% 2%;
+    background-color: #C7E8ED;
+}
+
+.recipe h1
+{
+    text-align: center;
+}
+
+.multi 
+{ 
+    width: 44%;
+    float: right;
+    padding: 0% 3% 0% 3%;
+}
+
+.multi p, .crusty p
+{
+    text-align: right;
+}
+
+.crusty
+{
+    width: 44%;
+    float: left;
+    padding: 0% 3% 0% 3%;     
+}
+
+.multi img, .crusty img
+{
+    float: left;
+    border-radius: 100%;
+}
+
+aside
+{
+    width: 34%;
+    float: left;
+    border: 3px solid #1C989E;
+    margin: 0% 2% 0% 2%;
+    background-color: #25B3B4; 
+    padding: 2%;
+    color: white;
+}
+
+aside img
+{
+    float: right;
+    margin: -15% -15% 0% 0%;
+    width: 140px;
+}
+
+.color-font
+{
+    color: #1C989E;
+}
+
+.color-font2
+{
+    color: #6DC6C6;
+}
+
+.clear
+{
+    clear: both;
+}
+
+h1, h2, nav
+{
+    font-family: 'Slabo 27px', serif;
+}
+
+p
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+footer
+{
+    float: normal;
+}
+
+.droit
+{
+    font-size: 0.8em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.droit img
+{
+    margin: 20px 0px 10px 0px;
+    width: 60px;
+}
+
+.red-text
+{
+    color: slateblue;
+    text-decoration-line: none;
+}

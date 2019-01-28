@@ -1,0 +1,41 @@
+.bloc_module
+{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+.color_red
+{
+	color: red;
+}
+.color_blue
+{
+	color: blue;
+}
+.color_green
+{
+	color: green;
+}
+
+.back_red
+{
+	background-color: red;
+}
+.back_blue
+{
+	background-color: blue;
+}
+.back_green
+{
+	background-color: green;
+}
+
+footer
+{
+	text-align: center;
+}
+
+.grey
+{
+	color: grey;
+}

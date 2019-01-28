@@ -1,0 +1,47 @@
+/***** CATEGORIE *****/
+.categorie {
+  background-color: white;
+  padding: 50px 20px;
+  margin: 20px 0;
+}
+
+.categorie_description {
+  text-align: left;
+}
+
+.categorie_description img {
+  float: left;
+  width: 150px;
+}
+
+.categorie_flex-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+.categorie_flex-card article {
+  width: 25%;
+}
+
+.categorie_flex-card article img {
+  width: 100%;
+  padding: 20px;
+}
+
+.categorie_flex-card article a {
+  padding: 20px;
+  background-color: #B08F69;
+}
+
+.section-3_price {
+  display: block;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 25px;
+}
+/*# sourceMappingURL=listing.css.map */

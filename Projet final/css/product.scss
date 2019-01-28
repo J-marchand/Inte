@@ -1,0 +1,104 @@
+.container main
+{
+    background-color: white;
+}
+
+/***** TOP *****/
+.main_top
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* TOP RIGHT */
+.rating 
+{
+    direction: rtl;
+}
+.rating a 
+{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+}
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a 
+{
+    color: orange;
+    cursor: pointer;
+}
+
+
+/***** MIDDLE *****/
+
+.main_middle
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_middle_right
+{
+    text-align: right;
+}
+
+.main_middle_right_top
+{
+    padding-bottom: 30px;
+}
+.main_middle_right_top h1
+{
+    padding-top: 20px;
+}
+
+.main_middle_right_bottom
+{
+    padding-top: 30px;
+}
+.main_middle_right_bottom a
+{
+    display: block;
+    padding-top: 20px;
+}
+
+.product_selector
+{
+    background-color: white;
+    padding: 5px;
+    width: 300px;
+    border: 1px rgb(177, 177, 177) solid;
+}
+
+.main_middle_right_bottom button
+{
+    padding: 10px;
+    background-color: #B08F69;
+    width: 300px;
+    border: none;
+}
+
+.main_middle_right_bottom
+a:hover
+{
+    color:#6F6667
+}
+
+
+/***** BOTTOM *****/
+.main_bottom a
+{
+    display: block;
+    color: #6F6667;
+    font-weight: bold;
+}
+
+.main_bottom a:hover
+{
+    color: #93AD2D;
+}

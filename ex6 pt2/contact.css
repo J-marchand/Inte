@@ -1,0 +1,81 @@
+main
+{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+main h1
+{   
+    font-size: 2em;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-weight:normal;
+}
+
+main table
+{
+    width: 100%;   
+}
+
+main th, td 
+{
+    border: 1px solid black;
+}
+
+main table th, td 
+{
+    padding: 10px;
+    text-align: left;
+}
+
+.color-th
+{
+    background-color: #C4A9DE;
+}
+
+table
+{
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+
+thead
+{
+    font-family: "Kaushan Script";
+    color: white;
+    font-size: 1.6em;    
+}
+
+tr td+td
+{
+    text-align: center;
+}
+
+.form fieldset
+{
+    border: 0.5px solid grey;
+    text-align: center;
+}
+
+fieldset
+{
+    margin: 10px;
+}
+
+.first-fieldset, .second-fieldset, .third-fieldset, .fourth-fieldset
+{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.first-fieldset label, .first-fieldset input
+{
+    width: 15%;
+}
+
+.fourth-fieldset select
+{
+    width: 90%;
+    padding: 10px;
+}

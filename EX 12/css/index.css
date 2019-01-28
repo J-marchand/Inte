@@ -1,0 +1,313 @@
+/* POLICE */
+
+@font-face
+{
+    font-family: "Bodega Sans";
+    src: url(../fonts/BodegaSans_Black.ttf);
+}
+
+
+/* ALL */
+
+body
+{
+    background-color: #464646;
+    background-image: url(../img/bg_body.svg);
+    color: white;
+    box-sizing: border-box;
+    line-height: 30px;
+    
+}
+
+.sizing
+{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+h1
+{
+    font-size: 4rem;
+}
+
+h2
+{
+    font-size: 3rem;
+}
+
+h1, h2, h3
+{
+    text-transform: uppercase;
+    font-family: "Bodega Sans";
+}
+
+.yellowWord
+{
+    color: #FF9D28;
+}
+
+/* HEADER */
+
+header
+{
+    background-image: linear-gradient(130deg, white 50%, #363636  50%) ;
+}
+
+nav
+{
+    font-size: 2rem;
+    line-height: 40px;
+    font-family: "Bodega Sans";
+}
+
+.background
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.background a
+{
+    display: block;
+    text-align: right;
+    color: white; 
+    text-decoration: none;
+}
+
+/* SECTION 1 */
+
+.sect-1
+{
+    text-align: center;
+    padding-bottom: 20px
+}
+
+.sect-1 h1
+{
+    padding: 50px 0;
+    line-height: 35px;
+}
+
+
+/* SECTION 2 */
+
+.sect-2
+{
+    padding-bottom: 20px;
+}
+
+.sect-2 h2
+{
+    font-size: 2em;
+    padding: 30px;
+    border: 3px solid #363636;
+    border-bottom: none;
+}
+
+.flex-product
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-product article
+{
+    width: 20%; 
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    
+    font-size: 1.2em;
+}
+
+.flex-product article img
+{
+    width: 100%;
+}
+
+/* ARTICLE */
+
+.flex-about
+{
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;  
+}
+
+.flex-about .parau,
+.flex-about video
+{
+    width: 45%;
+}
+
+.about h2
+{
+    padding: 30px 0 25px 30px;
+    border: 3px solid #363636;
+    border-bottom: none;
+}
+
+.para p
+{
+    margin: 0;
+}
+
+/* FOOTER */
+
+footer
+{
+    text-align: center;
+    background-color: #393939;
+}
+
+footer img
+{
+    width: 50px;
+    padding: 20px;
+}
+
+
+/****** TABLETTE ******/
+
+@media screen and (min-width: 480px) and (max-width: 960px)
+{
+
+    /* ALL */
+
+    .sizing
+    {
+        width: 80%;
+    }
+
+    /* HEADER */
+
+
+    header .sizing
+    {
+        width: 100%;
+    }
+
+    header
+    {
+        position: relative;
+        width: 90%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    
+    /* SECTION 1 */
+
+    .sect-1 h1
+    {
+        text-align: center;
+        line-height: 60px;
+    }
+
+    /* SECTION 2 */
+
+    .flex-product
+    {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .flex-product article
+    {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    /* ARTICLE */
+
+    .about h2
+    {
+        line-height: 50px;
+    }
+
+    .flex-about
+    {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .flex-about video
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+
+    .sizing
+    {
+        width: 80%;
+    }
+
+    /* HEADER */
+
+    .background
+    {
+        flex-wrap: wrap;
+    }
+
+    .background img 
+    {
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .background nav 
+    {
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .background a 
+    {
+        text-align: center;
+        
+    }
+
+    /* SECTION 1 */
+
+    .sect-1 h1
+    {
+        line-height: 60px;
+    }
+
+    /* SECTION 2 */
+
+    .flex-product
+    {
+    flex-wrap: wrap;
+    }
+
+    .flex-product article
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* ARTICLE */
+
+    .about h2
+    {
+        line-height: 50px;
+    }
+
+    .flex-about
+    {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .flex-about video
+    {
+        width: 100%;
+    }
+
+}
